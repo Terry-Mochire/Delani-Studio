@@ -1,0 +1,48 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+
+#section1{
+    background-image: url("../assets/backgrounds/h_img.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    height: 700px;
+}
+
+#d{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    border-style: solid;
+    border-radius: 100px;
+    margin-left: 16.5cm; 
+    margin-right: 16.5cm;
+}
+
+#empty{
+    padding-top: 20%;
+}
+
+#welcome{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+
+}
+#lineTwo{
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+}
+
+#lastLine p{
+    margin-top: 10cm; 
+}
+
