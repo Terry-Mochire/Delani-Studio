@@ -8,7 +8,7 @@ html {
   }
 
 
-#section1{
+#landing{
     background-image: url("../assets/backgrounds/h_img.jpg"); 
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,32 +17,16 @@ html {
     height: 700px;
 }
 
-#d{
-    font-family: 'Poppins', sans-serif;
-    font-size: 25px;
-    border-style: solid;
-    border-radius: 100px;
-    margin-left: 16.5cm; 
-    margin-right: 16.5cm;
-}
-
-#empty{
+#delaniLogo{
     padding-top: 20%;
 }
 
-#welcome{
-    display: flex;
-    justify-content: center;
-    font-family: 'Poppins', sans-serif;
-    font-size: 35px;
-
-}
-#lineTwo{
+.container p {
     font-family: 'Poppins', sans-serif;
     font-size: 35px;
 }
-
-#lastLine p{
-    margin-top: 10cm; 
+#lastLine {
+    font-size: 15px; 
+    padding-bottom: 3cm;
 }
 
