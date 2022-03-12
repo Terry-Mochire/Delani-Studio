@@ -139,3 +139,11 @@ textarea {
     color: whitesmoke;
     font-family: 'Poppins', sans-serif;
 }
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 3%;
+}
+footer img {
+    margin-left: 1%;
+}
