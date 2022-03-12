@@ -77,12 +77,9 @@ html {
     position: relative;
     display: none;
 }
-.showing {
+.column {
     display: flex;
     justify-content: center;
-}
-.showing img {
-   position: absolute; 
 }
 
 
@@ -170,4 +167,8 @@ footer img {
 }
 #section7 p{
     text-align: center;
+}
+/* Make the site responsive */
+@media screen and (min-width:320px) and (max-width:727) {
+    
 }

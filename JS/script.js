@@ -1,15 +1,15 @@
 $(function(){
     //Function to toggle what we do icons and descriptions
     $('#design').click(function(){
-        $('#design img').toggle();
+        $('#design .showing').toggle();
         $('.design p').toggle();
     });
     $('#development').click(function(){
-        $('#development img').toggle();
+        $('#development .showing').toggle();
         $('.development p').toggle();
     });
     $('#product').click(function(){
-        $('#product img').toggle();
+        $('#product .showing').toggle();
         $('.product p').toggle();
     });
     // Function to hover on Portfolio section.
