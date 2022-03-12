@@ -95,3 +95,10 @@ html {
 #row2 {
     margin: 2% 5%;
 }
+#section5 h2 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 130%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
