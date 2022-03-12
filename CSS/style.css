@@ -90,10 +90,10 @@ html {
 }
 
 #row1 {
-   margin: 2% 5%;
+   margin: 2% 4%;
 }
 #row2 {
-    margin: 2% 5%;
+    margin: 2% 4%;
 }
 #section5 h2 {
     text-align: center;
@@ -101,4 +101,41 @@ html {
     font-size: 130%;
     margin-top: 5%;
     margin-bottom: 3%;
+}
+#section6 {
+    background-image: url('../assets/backgrounds/c_image.jpg');
+    background-size: cover;
+    height: 500px;
+    margin-left: 3%;
+    margin-right: 3%;
+    color: white;
+}
+#section6 h2 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 130%;
+    margin-top: 5%;
+    padding-top: 5%;
+}
+input[type=text] {
+    margin-left: 20%;
+    width: 13cm;
+    background-image: inherit;
+    border: 0.05px solid white ;
+    margin-right: 1%;
+}
+input[type=email] {
+    width: 13cm;
+    background-image: inherit;
+    border: 0.05px solid white ;
+    margin-left: 1%;
+}
+textarea {
+    margin: 1% 20%;
+    background-image: inherit;
+    border: 0.05px solid white;
+}
+::placeholder {
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
 }
