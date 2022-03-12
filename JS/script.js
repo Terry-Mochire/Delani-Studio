@@ -81,4 +81,19 @@ $(function(){
     let date = new Date();
     let year = date.getFullYear();
     document.getElementById('year').innerHTML= year;
+
+    //function form
+    $('form').submit(function(event){
+        event.preventDefault() ;
+        var name = $('#namefield').val();
+        var email =$('#emailfield').val();
+        function validateForm(name,email) {
+            if((name == "") || (email == "")){
+                alert("please fill all required fields.")
+            }else{
+                alert(" Hello " + name + " we've received your message. Look forward to a response within two to three business days.");
+            };
+        };
+    validateForm(name,email);
+    })
 });
