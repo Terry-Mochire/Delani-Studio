@@ -88,3 +88,10 @@ html {
 #section4_container img {
    position: absolute; 
 }
+
+#row1 {
+   margin: 2% 5%;
+}
+#row2 {
+    margin: 2% 5%;
+}
