@@ -6,7 +6,7 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
-
+/* Landing page */
 #landing{
     background-image: url("../assets/backgrounds/h_img.jpg"); 
     background-repeat: no-repeat;
@@ -30,6 +30,8 @@ html {
     font-size: 15px; 
     padding-bottom: 3cm;
 }
+
+/* Section 2 */
 #section2 h2{
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -42,7 +44,7 @@ html {
     text-align: center;
     font-size: medium;
 }
-
+/* section 3 */
 #section3 {
     background-image: url("../assets/backgrounds/s_image.jpg");
     background-size: cover;
@@ -59,7 +61,7 @@ html {
     margin-top: 5%;
     padding-top: 13%;
 }
-
+/* section 4 */
 #section4 {
     margin-left: 3%;
     margin-right: 3%;
@@ -89,6 +91,7 @@ html {
    position: absolute; 
 }
 
+/* section 5 */
 #row1 {
    margin: 2% 4%;
 }
@@ -102,6 +105,27 @@ html {
     margin-top: 5%;
     margin-bottom: 3%;
 }
+.row span {
+    border: 5px solid white;
+    margin: 5%;
+    padding-top: 5%;
+    padding-bottom: 50%;
+    padding-left: 5%;
+    padding-right: 30% ;
+    font-size:x-large;
+    font-family: 'Poppins', sans-serif;
+}
+
+#project1, #project2, #project3, #project4, #project5, #project6, #project7, #project8 {
+    display: none;
+    color: whitesmoke;
+    position: relative;
+    padding-top: 10%;
+    height: 100%;
+    width: 100%;
+    
+}
+/* section 6 */
 #section6 {
     background-image: url('../assets/backgrounds/c_image.jpg');
     background-size: cover;
@@ -139,6 +163,7 @@ textarea {
     color: whitesmoke;
     font-family: 'Poppins', sans-serif;
 }
+/* Section 7 */
 footer {
     display: flex;
     justify-content: center;
