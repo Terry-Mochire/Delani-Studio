@@ -14,8 +14,6 @@ html {
     text-align: center;
     color: white;
     height: 700px;
-    margin-left: 3%;
-    margin-right: 3%;
 }
 
 #delaniLogo{
@@ -51,8 +49,6 @@ html {
     height: 500px;
     color: white;
    text-align: center;
-   margin-left: 3%;
-   margin-right: 3%;  
 }
 
 #section3 h2 {
@@ -80,7 +76,6 @@ html {
     text-align: center;
     position: relative;
     display: none;
-    /* margin-bottom: 5%; */
 }
 .showing {
     display: flex;
@@ -129,9 +124,7 @@ html {
 #section6 {
     background-image: url('../assets/backgrounds/c_image.jpg');
     background-size: cover;
-    height: 500px;
-    margin-left: 3%;
-    margin-right: 3%;
+    height: 100%;
     color: white;
 }
 #section6 h2 {
