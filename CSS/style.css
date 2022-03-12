@@ -63,8 +63,6 @@ html {
 }
 /* section 4 */
 #section4 {
-    margin-left: 3%;
-    margin-right: 3%;
     margin-bottom: 10%;
 }
 #section4 h2 {
@@ -74,22 +72,24 @@ html {
     margin-top: 5%;
     margin-bottom: 3%;
 }
-
-#section4_container {
+.label {
     display: flex;
-    justify-content:space-around ;
-    position: relative;
+    justify-content: center;
 }
- 
-#section4_container p {
-    width: 30%;
+.hidden p {
     text-align: center;
     position: relative;
     display: none;
+    /* margin-bottom: 5%; */
 }
-#section4_container img {
+.showing {
+    display: flex;
+    justify-content: center;
+}
+.showing img {
    position: absolute; 
 }
+
 
 /* section 5 */
 #row1 {
