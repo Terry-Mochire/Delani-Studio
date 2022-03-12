@@ -77,5 +77,8 @@ $(function(){
         $('#project8').hide();
         $('#work8 img').show();
     });
-
+    //function to output current year
+    let date = new Date();
+    let year = date.getFullYear();
+    document.getElementById('year').innerHTML= year;
 });
