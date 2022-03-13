@@ -1,0 +1,206 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+/* Landing page */
+#landing{
+    background-image: url("../assets/backgrounds/h_img.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    max-height: 100%;
+    max-width: 100%;
+    margin: auto;
+}
+
+#delaniLogo{
+    padding-top: 20%;
+}
+
+#landing p {
+    font-family: 'Poppins', sans-serif;
+    font-size:xx-large;
+}
+#landing #lastLine {
+    font-size: 15px; 
+    padding-bottom: 10%;
+}
+#mouse {
+    margin-bottom: 5%;
+    animation: bounce 2s infinite;
+  }
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-55px);
+    }
+    60% {
+      transform: translateY(-45px);
+    }
+}
+
+/* Section 2 */
+#section2 h2{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 130%;
+    margin-top: 5%;
+}
+#section2 p {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    font-size: medium;
+}
+/* section 3 */
+#section3 {
+    background-image: url("../assets/backgrounds/s_image.jpg");
+    background-size: cover;
+    height: 600%;
+    max-width: 100%;
+    color: white;
+   text-align: center;
+   padding-bottom: 10%;
+}
+
+#section3 h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 130%;
+    margin-top: 5%;
+    padding-top: 13%;
+}
+/* section 4 */
+/* #section4 {
+    margin-bottom: 10%;
+} */
+#section4 h2 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 130%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+.hidden p {
+    text-align: center;
+    position: relative;
+    display: none;
+}
+.column {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#development .showing img, #product .showing img{
+    padding: 2% 23%;
+}
+
+
+/* section 5 */
+#row1 {
+   margin: 2%;
+}
+#row2 {
+    margin: 2%;
+}
+.row img{
+    margin-bottom: 3%;
+    max-width: 100%;
+}
+#section5 h2 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 130%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.row span {
+    border: 5px solid white;
+    position: absolute;
+    margin: 5%;
+    padding-top: 5%;
+    padding-bottom: 50px;
+    padding-left: 5%;
+    padding-right: 30% ;
+    font-size:large;
+    font-family: 'Poppins', sans-serif;
+    filter: initial;
+}
+
+#project1, #project2, #project3, #project4, #project5, #project6, #project7, #project8 {
+    display: none;
+    color: whitesmoke;
+    position: relative;
+    padding-top: 10%;
+    filter: brightness(30%) ;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 50%;
+    
+}
+/* section 6 */
+#section6 {
+    background-image: url('../assets/backgrounds/c_image.jpg');
+    background-size: cover;
+    max-height: 100%;
+    max-width: 100%;
+    color: white;
+}
+#section6 h2 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 130%;
+    margin-top: 5%;
+    padding-top: 5%;
+}
+input[type=text] {
+    margin-left: 20%;
+    width: 30%;
+    background-image: inherit;
+    border: 0.05px solid white ;
+    margin-right: 1%;
+}
+input[type=email] {
+    width: 32.5%;
+    background-image: inherit;
+    border: 0.05px solid white ;
+    margin-left: 1%;
+}
+textarea {
+    margin-top: 1%;
+    margin-left: 20%;
+    width: 65%;
+    height: 40%;
+    background-image: inherit;
+    border: 0.05px solid white;
+}
+::placeholder {
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+#section6 input[type=submit] {
+    margin: 1% 20%;
+}
+#refreshbtn {
+    margin-left: 3%;
+}
+/* Section 7 */
+footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 3%;
+}
+footer img {
+    margin-left: 1%;
+}
+#section7 p{
+    text-align: center;
+}
+/* Make the site responsive */
